@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    android:id="@+id/cardView"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:background="@drawable/edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hong Kong"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/lavender"
+                android:id="@+id/title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hong Kong is a special administrative region. With 7.4 million residents of various nationalities in a 1,104-square-kilometre territory, Hong Kong is the world's fourth most densely populated region."
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="3"
+                android:layout_marginRight="20dp"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:id="@+id/desc"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
